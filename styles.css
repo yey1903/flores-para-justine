@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.flower-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flower {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347; /* Color inicial */
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+.poem-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#poem {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #333;
+}
